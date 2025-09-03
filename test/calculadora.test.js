@@ -26,7 +26,7 @@ describe('Testes da Função de Soma', function () {
         expect(resultadoDaSoma).to.equal(0);
     })
 
-    it('A função deve ser capaz de somar dois números zerados', function() {
+    it('A função deve ser capaz de somar dois números negativos', function() {
         // Coleta resultado da Função
         const resultadoDaSoma = somarDoisNumeros(-75, -45);
 
